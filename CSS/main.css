@@ -1,11 +1,68 @@
+@font-face {
+  font-family: "kate";
+  src: url("../KateCelebration.ttf");
+}
+@font-face {
+  font-family: "quicksand";
+  src: url("../quicksand/Quicksand_Bold.otf");
+}
+
+header {
+  background-color: #42f498;
+  height: 35vh;
+  width: 100vw;
+  font-family: "kate";
+  font-size: 1.8em;
+  display: flex;
+  margin-top: -1%;
+}
+
+header h1 {
+  padding-left: 5vw;
+  color: black;
+  padding-right: 4vw;
+  letter-spacing: 3px;
+}
+
+img {
+  width: 25vw;
+}
+
 h1 {
   color: red;
 }
-header {
-  display: flex;
-  }
+
+nav {
+  padding-left: 5vw;
+  padding-top: 7vh;
+  width: 100%;
+  margin-top: 6%;
+}
+
+nav a {
+  width: 7vw;
+}
+
+nav a button{
+  font-family: "quicksand";
+  font-size: .8em;
+  padding: 3%;
+  border-radius: 5%;
+}
 
 a {
   border-color: black;
   border-radius: 25%;
+  padding: 2%;
+}
+
+#phone {
+  font-size: 1.5em;
+  margin-right: 5%;
+  position: absolute;
+  margin-left: 85vw;
+}
+
+body {
+  background-color: #bde6f9;
 }
